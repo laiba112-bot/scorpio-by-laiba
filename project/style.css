@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #F5F5DC;
+    color: #550000;
+    /* padding: 1rem 0; */
+    padding: 10px;
+    text-align: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #550000;
+    text-decoration: none;
+}
+
+.hero-section {
+    /* background: url('hero-bg.jpg') no-repeat center center/cover; */
+    /* background-image: url(https://svgsilh.com/svg/2068353.svg); */
+    background-position: 100%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-color: #550000;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.main{
+    display: flex;
+}
+.model{
+    display: flex;
+    justify-content: end;
+}
+
+
+.hero-section h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: #F5F5DC;
+    color: #550000;
+    padding: 7px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.products-section {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.products-section h2 {
+    margin-bottom: 2rem;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-item {
+    width: 30%;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-section, .contact-section {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.about-section p, .contact-section p {
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 50%;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+@media (max-width: 519px) {
+    ul {
+        display: none;
+    }
+}
